@@ -19,9 +19,9 @@ def download_image(url, directory, fname=None):
 today = date.today()
 str_today = str(today) + '.png'
 
-THIS_FILE_PATH = os.path.abspath(__file__)           # file path of "C:\Users\mbela\30days\RussoUkraineWar\dailydownload.py"
+THIS_FILE_PATH = os.path.abspath(__file__)           # file path of "C:\Users\mbela\......py"
 # print(THIS_FILE_PATH)
-BASE_DIR = os.path.dirname(THIS_FILE_PATH)           # one level above: "C:\Users\mbela\30days\RussoUkraineWar"
+BASE_DIR = os.path.dirname(THIS_FILE_PATH)           # one level above: "C:\Users\mbela\......"
 # print(BASE_DIR)
 DOWNLOADS_DIR = os.path.join(BASE_DIR, "mapDaily")   # writes fileName within the directory (makes a file in the same level as this code)
 # print(DOWNLOADS_DIR)
